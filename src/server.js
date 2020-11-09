@@ -19,14 +19,34 @@ const server = http.createServer(async function (req, res) {
     return res.end();
   }
 
-  // res.setHeader('Content-type', 'application/octet-stream');
-  // res.setHeader('Content-disposition', 'attachment; filename=activation.txt');
+  const options = {
+    host: process.env.HOST,
+    path: `/gists/${process.env.GIST_ID}`,
+    method: 'GET',
+    headers: { 'user-agent': 'node.js' },
+  };
 
-  res.setHeader('Content-type', 'text/plain');
-  res.writeHead(200);
+  https
+    .get(options, (response) => {
+      let data = '';
 
-  res.write('data');
-  res.end();
+      response.on('data', (chunk) => (data += chunk));
+
+      response.on('end', () => {
+        const payload = JSON.parse(data).files['Activator.txt'].content;
+
+        res.setHeader('Content-type', 'text/plain');
+        res.writeHead(200);
+        res.write(payload);
+        res.end();
+      });
+    })
+    .on('error', (err) => {
+      res.setHeader('Content-type', 'text/html');
+      res.writeHead(500);
+      res.write('<h2>500 Internal Server Error.</h2>');
+      res.end();
+    });
 });
 
 server.listen(PORT, () => console.log(`Listening on port ${PORT}`));
