@@ -5,7 +5,7 @@ exports.authenticateRequest = (req) => {
     ? req.headers.authorization.replace('Bearer ', '')
     : '';
 
-  return !AUTH_TOKEN || AUTH_TOKEN !== 'demo';
+  return !AUTH_TOKEN || AUTH_TOKEN !== process.env.PASS;
 };
 
 exports.authenticateUserAgent = (req) => {
