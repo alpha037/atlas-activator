@@ -1,0 +1,21 @@
+{
+  "name": "atlas-activator",
+  "version": "2.0.0",
+  "description": "An independent bare nodejs server to send an embedded windows host script for Windows 10 activation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alpha037",
+  "repository": {
+    "type": "private",
+    "url": ""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
