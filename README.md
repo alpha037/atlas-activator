@@ -1,3 +1,3 @@
-# atlas-windows-activation
+# atlas-activator
 
 An independent bare nodejs server to send an embedded windows host script for Windows 10 activation.
