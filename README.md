@@ -1,4 +1,6 @@
-  <h1 align="center">atlas-activator</h1>
+<h1>**Strictly for Educational Purposes**</h1>
+
+<h1 align="center">atlas-activator</h1>
 
   <p align="center">
     An independent bare nodejs server used to send an embedded windows host script for Windows 10 activation.
