@@ -93,7 +93,7 @@ npm install
 
 You can only request the windows host script, that is being used for activation, using either [curl](https://curl.se/download.html) or [Postman](https://www.postman.com/downloads/). No other user agents are allowed for obvious reasons.
 
-- For [curl](https://curl.se/) users, a sample request would look like this:
+- For [curl](https://curl.se/download.html) users, a sample request would look like this:
 
 ```sh
 curl -H "Authorization: Bearer <AUTH_TOKEN>" https://atlas-activator.herokuapp.com/
