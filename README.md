@@ -1,4 +1,4 @@
-<h1>**Strictly for Educational Purposes**</h1>
+<h1 align="center">**Strictly for Educational Purposes**</h1>
 
 <h1 align="center">atlas-activator</h1>
 
@@ -16,9 +16,9 @@
   </p>
 </p>
 
-<h3 align=center>No More KMS crap!</h3>
+<h3 align="center">No More KMS crap!</h3>
 
-<p align=center>
+<p align="center">
 
 ```sh
 AUTH_TOKEN for the day: atlas-copyright
