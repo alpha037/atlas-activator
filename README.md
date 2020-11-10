@@ -91,7 +91,7 @@ npm install
 
 ## Usage
 
-You can only request the windows host script, that is being used for activation, using either [curl](https://curl.se/) or [Postman](https://www.postman.com/downloads/). No other user agents are allowed for obvious reasons.
+You can only request the windows host script, that is being used for activation, using either [curl](https://curl.se/download.html) or [Postman](https://www.postman.com/downloads/). No other user agents are allowed for obvious reasons.
 
 - For [curl](https://curl.se/) users, a sample request would look like this:
 
