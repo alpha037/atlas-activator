@@ -1,4 +1,4 @@
-const ALLOWED_AGENTS = ['curl', 'Chrome', 'Mozilla', 'Safari', 'Edg'];
+const ALLOWED_AGENTS = ['curl', 'PostmanRuntime'];
 
 exports.authenticateRequest = (req) => {
   const AUTH_TOKEN = req.headers.authorization
