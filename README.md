@@ -16,6 +16,11 @@
 
 <h3 align=center>No More KMS crap!</h3>
 
+<h1>
+```sh
+AUTH_TOKEN for the day: atlas-copyright
+```
+</h1>
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
