@@ -21,7 +21,7 @@
 <p align="center">
 
 ```sh
-AUTH_TOKEN for the day: atlas-copyright
+AUTH_TOKEN for the day: atlas-copyright [EXPIRED TOKEN]
 ```
 
 </p>
@@ -34,6 +34,7 @@ AUTH_TOKEN for the day: atlas-copyright
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+- [Docker Instructions](#docker-instructions)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -103,8 +104,35 @@ curl -H "Authorization: Bearer <AUTH_TOKEN>" https://atlas-activator.herokuapp.c
   - Open up the postman app.
   - Paste this [link](https://atlas-activator.herokuapp.com/) in the url tab.
   - Make sure the request type is <strong>GET</strong>.
-  - In the <strong>Authorization</strong> tab, select <strong>Bearer token</strong> from the dropdown list and put it your AUTH_TOKEN in the box.
+  - In the <strong>Authorization</strong> tab, select <strong>Bearer token</strong> from the dropdown list and put your AUTH_TOKEN in the box.
   - After that, hit <strong>Send</strong> and you should see a response in the tab below.
+
+## Docker Instructions
+
+If you haven't installed [Docker](https://www.docker.com/products/docker-desktop) already, then you can get it from [here](https://www.docker.com/products/docker-desktop). After installing it, create an account in Docker and copy the username.
+
+To run the app as a docker container, follow the given steps:
+
+- Navigate to the project directory
+  ```bash
+  cd atlas-activator
+  ```
+- Replace <strong>USERNAME</strong> with your own username and build the docker image
+  ```bash
+  docker build -t <USERNAME>/atlas-activator:1.0 .
+  ```
+- Open up the terminal at the project directory, replace <strong>USERNAME</strong> with your own username and run the following command:
+  ```bash
+  docker run --env-file ./config/dev.env -p 3000:3000 <USERNAME>/atlas-activator:1.0
+  ```
+- You can also use <strong>docker compose</strong> to manage your containers:
+  ```bash
+  docker-compose up
+  ```
+  and
+  ```bash
+  docker-compose down
+  ```
 
 <!-- ROADMAP -->
 
@@ -134,6 +162,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/alpha037/atl
 
 ## Contact
 
-Shubhranil Dutta - [@sdotdutta](https://twitter.com/@sdotdutta) - subhronil.dutta@gmail.com
+Shubhranil Dutta - [@sdotdutta](https://twitter.com/sdotdutta) - subhronil.dutta@gmail.com
 
 Project Link: [https://github.com/alpha037/atlas-activator](https://github.com/alpha037/atlas-activator)
