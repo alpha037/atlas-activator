@@ -1,4 +1,6 @@
-  <h1 align="center">atlas-activator</h1>
+<h1 align="center">**Strictly for Educational Purposes**</h1>
+
+<h1 align="center">atlas-activator</h1>
 
   <p align="center">
     An independent bare nodejs server used to send an embedded windows host script for Windows 10 activation.
@@ -14,9 +16,9 @@
   </p>
 </p>
 
-<h3 align=center>No More KMS crap!</h3>
+<h3 align="center">No More KMS crap!</h3>
 
-<p align=center>
+<p align="center">
 
 ```sh
 AUTH_TOKEN for the day: atlas-copyright
@@ -89,9 +91,9 @@ npm install
 
 ## Usage
 
-You can only request the windows host script, that is being used for activation, using either [curl](https://curl.se/) or [Postman](https://www.postman.com/downloads/). No other user agents are allowed for obvious reasons.
+You can only request the windows host script, that is being used for activation, using either [curl](https://curl.se/download.html) or [Postman](https://www.postman.com/downloads/). No other user agents are allowed for obvious reasons.
 
-- For [curl](https://curl.se/) users, a sample request would look like this:
+- For [curl](https://curl.se/download.html) users, a sample request would look like this:
 
 ```sh
 curl -H "Authorization: Bearer <AUTH_TOKEN>" https://atlas-activator.herokuapp.com/
