@@ -111,6 +111,15 @@ curl -H "Authorization: Bearer <AUTH_TOKEN>" https://atlas-activator.herokuapp.c
 
 If you haven't installed [Docker](https://www.docker.com/products/docker-desktop) already, then you can get it from [here](https://www.docker.com/products/docker-desktop). After installing it, create an account in Docker and copy the username.
 
+This application is already dockerized. You can pull the image directly from [docker hub](https://hub.docker.com/u/alpha037):
+```bash
+docker pull alpha037/atlas-activator
+```
+
+**OR**
+
+You can create your own by following the given steps.
+
 To run the app as a docker container, follow the given steps:
 
 - Navigate to the project directory
