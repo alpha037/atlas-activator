@@ -97,12 +97,12 @@ You can only request the windows host script, that is being used for activation,
 - For [curl](https://curl.se/download.html) users, a sample request would look like this:
 
 ```sh
-curl -H "Authorization: Bearer <AUTH_TOKEN>" https://atlas-activator.herokuapp.com/
+curl -H "Authorization: Bearer <AUTH_TOKEN>" http://activator.shubhranil.com/
 ```
 
 - For [Postman](https://www.postman.com/downloads/) users:
   - Open up the postman app.
-  - Paste this [link](https://atlas-activator.herokuapp.com/) in the url tab.
+  - Paste this [link](http://activator.shubhranil.com/) in the url tab.
   - Make sure the request type is <strong>GET</strong>.
   - In the <strong>Authorization</strong> tab, select <strong>Bearer token</strong> from the dropdown list and put your AUTH_TOKEN in the box.
   - After that, hit <strong>Send</strong> and you should see a response in the tab below.
