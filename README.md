@@ -8,7 +8,7 @@
     <a href="https://github.com/alpha037/atlas-activator#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://atlas-activator.herokuapp.com">View Demo</a>
+    <a href="http://activator.shubhranil.com">View Demo</a>
     ·
     <a href="https://github.com/alpha037/atlas-activator/issues">Report Bug</a>
     ·
