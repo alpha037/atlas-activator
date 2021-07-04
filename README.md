@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 <h1 align="center">**Strictly for Educational Purposes**</h1>
 
 <h1 align="center">atlas-activator</h1>
@@ -162,6 +164,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/alpha037/atl
 
 ## Contact
 
-Shubhranil Dutta - [@sdotdutta](https://twitter.com/sdotdutta) - subhronil.dutta@gmail.com
+Shubhranil Dutta - [@sdotdutta](https://twitter.com/salpha037) - subhronil.dutta@gmail.com
 
 Project Link: [https://github.com/alpha037/atlas-activator](https://github.com/alpha037/atlas-activator)
