@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <h1 align="center">**Strictly for Educational Purposes**</h1>
 
 <h1 align="center">atlas-activator</h1>
