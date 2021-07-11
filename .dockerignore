@@ -1,1 +1,16 @@
 /node_modules
+/config
+.firebase
+.firebaserc
+firebase.json
+node_modules
+npm-debug.log
+firebase-debug.log
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
