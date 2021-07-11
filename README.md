@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+<a href="https://atlas.shubhranil.com" target="\_blank">
+<img src="https://img.shields.io/badge/Developed%20and%20Maintained%20by-Atlas%20Inc-blue">
+</a>
 
 <h1 align="center">**Strictly for Educational Purposes**</h1>
 
